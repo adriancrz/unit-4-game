@@ -50,7 +50,7 @@ $(document).ready(function(){
         //Updating score when losing.
         if (totalScore > randomNumber) {
             lose = lose +1;
-            $("#losses").html("Losses: " + win);
+            $("#losses").html("Losses: " + lose);
             $("#message").html("What a looser, dude!");
 
             randomNumberGenerator();
@@ -79,7 +79,7 @@ $(document).ready(function(){
         //Updating score when losing.
         if (totalScore > randomNumber) {
             lose = lose +1;
-            $("#losses").html("Losses: " + win);
+            $("#losses").html("Losses: " + lose);
             $("#message").html("What a looser, dude!");
 
             randomNumberGenerator();
@@ -107,7 +107,7 @@ $(document).ready(function(){
         //Updating score when losing.
         if (totalScore > randomNumber) {
             lose = lose +1;
-            $("#losses").html("Losses: " + win);
+            $("#losses").html("Losses: " + lose);
             $("#message").html("What a looser, dude!");
 
             randomNumberGenerator();
@@ -135,7 +135,7 @@ $(document).ready(function(){
         //Updating score when losing.
         if (totalScore > randomNumber) {
             lose = lose +1;
-            $("#losses").html("Losses: " + win);
+            $("#losses").html("Losses: " + lose);
             $("#message").html("What a looser, dude!");
 
             randomNumberGenerator();
