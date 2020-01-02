@@ -15,11 +15,10 @@ $(document).ready(function(){
 
     //Random number generator for all gems.
     function randomGemNumberGenerator() {
-        greenGemNumber = Math.floor(Math.random() * 12) + 1;
-        redGemNumber = Math.floor(Math.random() * 12) + 1;
-        blueGemNumber = Math.floor(Math.random() * 12) + 1;
-        whiteGemNumber = Math.floor(Math.random() * 12) + 1;
-        brilliantGemNumber = Math.floor(Math.random() * 12) + 1;
+        keldeoNmbr = Math.floor(Math.random() * 12) + 1;
+        victiniNmbr = Math.floor(Math.random() * 12) + 1;
+        genesectNmbr = Math.floor(Math.random() * 12) + 1;
+        manaphyNmbr = Math.floor(Math.random() * 12) + 1;
     }
 
     //Function call outs.
