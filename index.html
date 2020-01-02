@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+        <title>Pokémon Collector Game</title>
+        
+    </head>
+    <body>
+        
+        <!-- Game Title & Instructions -->
+        <div class="jumbotron" id="heroImage">
+            <div class="container">
+
+                <h1> The Pokémon Collector Game</h1>
+
+                <p>You will be given a random number at the begining of the game. The goal of the game is to match your score to that number.  To add points to your score, click on one of the Pokémon. Each Pokémon has a different value to add to your score.  Be careful! If you go past the random number amount, you will lose.</p>
+
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Random Number Column-->
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="rndmNumbCol">
+                    <h2>Random Number</h2>
+                    <p id="randomNumberId">###</p>
+                </div>
+
+                <!-- Pokémon Buttons-->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="buttnsCol">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <img src="assets/images/gem1.JPG" alt="Keldeo" id="Keldeo">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <img src="assets/images/gem2.JPG" alt="Manaphy" id="Manaphy">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <img src="assets/images/gem3.JPG" alt="Victini" id="Victini">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <img src="assets/images/gem4.JPG" alt="Genesect" id="Genesect">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Score -->
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="scoreCol">
+                    <h2>Your Score Is</h2>
+                    <p id="currentScore">0</p>
+                </div>
+
+            </div>
+
+
+            <!-- Win and Lose Messages -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 id="message"></h3>
+                </div>
+            </div>
+
+
+            <!-- Wins and Losses Stats -->
+            <div class="row" id="gameStats">
+
+                <div class="col-md-6">
+                    <h2 id="wins">Wins: 0</h2>
+                </div>
+
+                <div class="col-md-6">
+                    <h2 id="losses">Losses: 0</h2>
+                </div>
+
+            </div>
+
+            <!-- Reset Game -->
+            <div class="row">
+
+                <div class="col-md-12" id="resetCol">
+                    <button type="button" class="btn btn-default btn-lg" id="reset">RESET GAME</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
