@@ -88,7 +88,7 @@ $(document).ready(function(){
             $("#currentScore").html(totalScore);
         }
     });
-    $("Victini").on("click", function() {
+    $("#Victini").on("click", function() {
         totalScore = totalScore + victiniNmbr;
         $("#currentScore").html(totalScore);
 
@@ -116,7 +116,7 @@ $(document).ready(function(){
             $("#currentScore").html(totalScore);
         }
     });
-    $("Genesect").on("click", function() {
+    $("#Genesect").on("click", function() {
         totalScore = totalScore + genesectNmbr;
         $("#currentScore").html(totalScore);
 
